@@ -1,29 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hsGQL6YX)
-# App Flask per Giochi da Tavolo e Partite
-
-Implementa un'applicazione Flask per gestire Giochi da Tavolo e le loro Partite.
-
-## Descrizione delle Entità
-
-- **Giochi**: nome, numero_giocatori_massimo, durata_media (in minuti), categoria
-- **Partite**: data, vincitore (nome del giocatore), punteggio_vincitore
-
-Relazione: Un gioco può avere più partite, ogni partita appartiene a un gioco specifico.
-
-## Funzionalità Richieste
-
-L'app deve permettere di:
-
-1. Creare nuovi giochi da tavolo
-2. Registrare partite per un gioco esistente
-3. Visualizzare la lista dei giochi
-4. Visualizzare la lista delle partite di un gioco
-
-Non è richiesta la modifica o la cancellazione dei contenuti.
-
-## Schema del Database
-
-```sql
 DROP TABLE IF EXISTS partite;
 DROP TABLE IF EXISTS giochi;
 
